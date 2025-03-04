@@ -4,6 +4,65 @@
   font-family: "Inter", sans-serif;
 }
 
+.Hero_heading {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.Heading {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.Sub_Heading {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.Text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .Hero_heading {
+    font-size: 40px;
+  }
+
+  .Heading {
+    font-size: 30px;
+  }
+
+  .Sub_Heading {
+    font-size: 24px;
+  }
+
+  .Text {
+    font-size: 16px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .Hero_heading {
+    font-size: 32px;
+  }
+
+  .Heading {
+    font-size: 24px;
+  }
+
+  .Sub_Heading {
+    font-size: 20px;
+  }
+
+  .Text {
+    font-size: 14px;
+  }
+}
+
 .Button {
   padding: 10px 25px;
   background: #10b981;
